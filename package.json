@@ -1,7 +1,7 @@
 {
   "name": "yansi-nextjs",
   "version": "2.0.0",
-  "description": "Yansi.IO - AI Marketing Services",
+  "description": "Yansi.IO - AI Marketing Services Platform",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,9 +10,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^15.1.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
     "next-intl": "^3.9.0",
     "zod": "^3.22.0",
     "react-hook-form": "^7.51.0",
@@ -22,12 +22,11 @@
   "devDependencies": {
     "typescript": "^5.3.0",
     "@types/node": "^20.0.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
     "tailwindcss": "^3.3.0",
     "postcss": "^8.4.0",
     "autoprefixer": "^10.4.0",
-    "eslint": "^8.50.0",
-    "eslint-config-next": "^15.1.0"
+    "eslint": "^8.50.0"
   }
 }
