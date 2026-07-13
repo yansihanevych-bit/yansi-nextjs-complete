@@ -1,0 +1,54 @@
+# robots.txt for Yansi.IO
+# Управление доступом поисковых ботов
+
+# Все боты
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /.env
+Disallow: /node_modules/
+Disallow: /.next/
+Disallow: /private/
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+Disallow: /search?
+
+# Специфично для Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Специфично для Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Яндекс
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
+
+# Специфично для мобильного гугла
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Всё остальное по-умолчанию
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://yan-si.io/sitemap.xml
+Sitemap: https://yan-si.io/sitemap-en.xml
+Sitemap: https://yan-si.io/sitemap-uk.xml
+Sitemap: https://yan-si.io/sitemap-ru.xml
+
+# Правила для плохих ботов
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10

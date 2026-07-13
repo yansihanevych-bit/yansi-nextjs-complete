@@ -1,0 +1,336 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ CSS VARIABLES */
+:root {
+  --c-text: #FFF5EF;
+  --c-gold: #FFB347;
+  --c-accent: #FF8A00;
+  --c-hover: #FF5A00;
+  --c-red: #FF2D00;
+  --c-bg: #111111;
+  --c-footer: #050505;
+}
+
+/* ✅ GLOBAL BASE STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--c-bg);
+  color: var(--c-text);
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  overflow-x: hidden;
+}
+
+/* ✅ PREVENT CLS - Обери webfonts от blocking */
+@supports (font-variation-settings: normal) {
+  body {
+    font-display: swap;
+  }
+}
+
+/* ✅ FOCUS VISIBLE - Доступность */
+:focus-visible {
+  outline: 2px solid var(--c-accent);
+  outline-offset: 2px;
+}
+
+/* ✅ SELECTION COLORS */
+::selection {
+  background-color: var(--c-accent);
+  color: #000;
+}
+
+::-moz-selection {
+  background-color: var(--c-accent);
+  color: #000;
+}
+
+/* ✅ SCROLLBAR STYLING */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 139, 0, 0.3);
+  border-radius: 4px;
+  transition: background 200ms ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 139, 0, 0.6);
+}
+
+/* ✅ RESPONSIVE TEXT - Используем clamp() */
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.2;
+  font-family: 'Unbounded', sans-serif;
+}
+
+h2 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.3;
+  font-family: 'Unbounded', sans-serif;
+}
+
+h3 {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+p {
+  font-size: clamp(0.95rem, 2vw, 1.125rem);
+  line-height: 1.7;
+}
+
+/* ✅ BUTTON BASES */
+button, [role="button"] {
+  cursor: pointer;
+  transition: all 150ms ease-out;
+  
+  /* ✅ DISABLE DOUBLE TAP ZOOM на mobile */
+  @media (hover: hover) {
+    &:hover:not(:disabled) {
+      transform: translateY(-2px);
+    }
+  }
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* ✅ LINK STYLES */
+a {
+  color: inherit;
+  text-decoration: none;
+  
+  @media (hover: hover) {
+    &:hover {
+      color: var(--c-accent);
+    }
+  }
+}
+
+/* ✅ INPUT STYLING */
+input, textarea, select {
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.5;
+  
+  &::placeholder {
+    opacity: 0.6;
+  }
+  
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* ✅ IMAGE STYLES */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+picture {
+  display: block;
+}
+
+/* ✅ LIST STYLES */
+ul, ol {
+  list-style: none;
+}
+
+/* ✅ TEXT UTILITIES */
+.text-gradient {
+  background: linear-gradient(135deg, var(--c-accent) 0%, var(--c-hover) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glow {
+  text-shadow: 0 0 10px rgba(255, 139, 0, 0.5);
+}
+
+/* ✅ ANIMATIONS */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 139, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 139, 0, 0.8);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 300ms ease-out;
+}
+
+.animate-slide-up {
+  animation: slideInUp 400ms ease-out;
+}
+
+.animate-slide-down {
+  animation: slideInDown 400ms ease-out;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* ✅ RESPECT PREFERS-REDUCED-MOTION */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ✅ RESPONSIVE UTILITY - Mobile first */
+@media (max-width: 640px) {
+  /* ✅ Ensure no overflow */
+  html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* ✅ Larger touch targets on mobile */
+  button, [role="button"], a {
+    min-height: 48px;
+    min-width: 48px;
+  }
+
+  /* ✅ Readable font sizes */
+  body {
+    font-size: 16px;
+  }
+
+  input, textarea, select {
+    font-size: 16px;
+  }
+
+  /* ✅ Spacing */
+  body {
+    padding: 0 1rem;
+  }
+}
+
+/* ✅ TABLET */
+@media (min-width: 641px) and (max-width: 1024px) {
+  /* ✅ Balanced spacing */
+  body {
+    padding: 0 1.5rem;
+  }
+}
+
+/* ✅ DESKTOP */
+@media (min-width: 1025px) {
+  /* ✅ Container constraint */
+  body {
+    padding: 0 2rem;
+  }
+
+  main {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ✅ DARK MODE - Default is dark */
+@media (prefers-color-scheme: light) {
+  :root {
+    --c-text: #111111;
+    --c-bg: #FFFFFF;
+  }
+}
+
+/* ✅ CONTRAST MODES */
+@media (prefers-contrast: more) {
+  :root {
+    --c-accent: #FF6B00;
+    --c-hover: #FF4500;
+  }
+
+  button, a {
+    text-decoration: underline;
+  }
+}
+
+/* ✅ REDUCED MOTION */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

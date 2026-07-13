@@ -1,0 +1,154 @@
+{
+  "version": 2,
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "public": true,
+  "rewrites": [
+    {
+      "source": "/robots.txt",
+      "destination": "/api/robots"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/api/sitemap"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/old-page",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, must-revalidate"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    },
+    {
+      "source": "/static/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/_next/static/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains; preload"
+        }
+      ]
+    }
+  ],
+  "env": [
+    {
+      "key": "NEXT_PUBLIC_SITE_URL",
+      "description": "Public site URL (e.g., https://yan-si.io)",
+      "type": "string"
+    },
+    {
+      "key": "TELEGRAM_BOT_TOKEN",
+      "description": "Telegram Bot API token",
+      "type": "secret"
+    },
+    {
+      "key": "TELEGRAM_CHAT_ID",
+      "description": "Telegram chat/group ID for notifications",
+      "type": "secret"
+    },
+    {
+      "key": "RATE_LIMIT_REQUESTS",
+      "description": "Max form submissions per IP",
+      "type": "string",
+      "default": "3"
+    },
+    {
+      "key": "RATE_LIMIT_WINDOW_MS",
+      "description": "Rate limit time window in ms",
+      "type": "string",
+      "default": "3600000"
+    },
+    {
+      "key": "LOG_LEVEL",
+      "description": "Logging level: debug, info, warn, error",
+      "type": "string",
+      "default": "info"
+    },
+    {
+      "key": "NEXT_PUBLIC_GA_ID",
+      "description": "Google Analytics ID (optional)",
+      "type": "string"
+    },
+    {
+      "key": "NEXT_PUBLIC_GTAG_ID",
+      "description": "Google Tag Manager ID (optional)",
+      "type": "string"
+    }
+  ],
+  "regions": [
+    "iad1",
+    "bru1",
+    "fra1",
+    "hnd1",
+    "sin1",
+    "syd1"
+  ],
+  "functions": {
+    "api/**": {
+      "maxDuration": 30,
+      "memory": 1024
+    }
+  },
+  "framework": {
+    "slug": "nextjs",
+    "recommended": true
+  },
+  "git": {
+    "deploymentEnabled": {
+      "main": true,
+      "develop": true
+    }
+  }
+}

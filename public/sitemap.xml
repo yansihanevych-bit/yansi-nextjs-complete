@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://yan-si.io/en/ai-agents/osint</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/ai-agents/osint" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/ai-agents/osint" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/ai-agents/osint" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/ai-agents/osint</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/ai-agents/osint" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/ai-agents/osint" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/ai-agents/osint" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/ai-agents/osint</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/ai-agents/osint" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/ai-agents/osint" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/ai-agents/osint" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/blog" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/blog" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/blog" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/blog" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/blog" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/blog" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/blog" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/blog" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/blog" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/cases</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/cases" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/cases</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/cases" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/cases</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/cases" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/contact" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/contact" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/contact" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/contact" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/contact" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/contact" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/guides/choose-marketing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/guides/choose-marketing" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/guides/choose-marketing" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/guides/choose-marketing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/guides/choose-marketing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/guides/choose-marketing" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/guides/choose-marketing" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/guides/choose-marketing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/guides/choose-marketing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/guides/choose-marketing" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/guides/choose-marketing" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/guides/choose-marketing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/guides/google-ads-generator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/guides/google-ads-generator" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/guides/google-ads-generator" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/guides/google-ads-generator" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/guides/google-ads-generator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/guides/google-ads-generator" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/guides/google-ads-generator" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/guides/google-ads-generator" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/guides/google-ads-generator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/guides/google-ads-generator" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/guides/google-ads-generator" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/guides/google-ads-generator" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/industries/specialized</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/industries/specialized" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/industries/specialized" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/industries/specialized" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/industries/specialized</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/industries/specialized" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/industries/specialized" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/industries/specialized" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/industries/specialized</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/industries/specialized" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/industries/specialized" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/industries/specialized" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/industries/supply-chain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/industries/supply-chain" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/industries/supply-chain" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/industries/supply-chain" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/industries/supply-chain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/industries/supply-chain" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/industries/supply-chain" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/industries/supply-chain" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/industries/supply-chain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/industries/supply-chain" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/industries/supply-chain" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/industries/supply-chain" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/page.tsx</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/page.tsx" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/page.tsx" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/page.tsx" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/page.tsx</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/page.tsx" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/page.tsx" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/page.tsx" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/page.tsx</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/page.tsx" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/page.tsx" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/page.tsx" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/platforms/magento</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/magento" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/magento" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/magento" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/platforms/magento</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/magento" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/magento" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/magento" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/platforms/magento</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/magento" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/magento" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/magento" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/platforms/nft-marketplace</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/nft-marketplace" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/nft-marketplace" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/nft-marketplace" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/platforms/nft-marketplace</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/nft-marketplace" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/nft-marketplace" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/nft-marketplace" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/platforms/nft-marketplace</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/nft-marketplace" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/nft-marketplace" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/nft-marketplace" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/platforms/opencart</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/opencart" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/opencart" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/opencart" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/platforms/opencart</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/opencart" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/opencart" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/opencart" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/platforms/opencart</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/opencart" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/opencart" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/opencart" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/platforms/shopify</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/shopify" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/shopify" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/shopify" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/platforms/shopify</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/shopify" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/shopify" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/shopify" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/platforms/shopify</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/shopify" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/shopify" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/shopify" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/platforms/wordpress</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/wordpress" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/wordpress" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/wordpress" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/platforms/wordpress</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/wordpress" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/wordpress" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/wordpress" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/platforms/wordpress</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/platforms/wordpress" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/platforms/wordpress" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/platforms/wordpress" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/policies</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/policies" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/policies" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/policies" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/policies</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/policies" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/policies" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/policies" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/policies</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/policies" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/policies" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/policies" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/ai-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/ai-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/ai-development" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/ai-development" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/ai-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/ai-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/ai-development" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/ai-development" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/ai-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/ai-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/ai-development" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/ai-development" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/bing-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/bing-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/bing-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/bing-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/bing-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/bing-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/bing-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/bing-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/bing-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/bing-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/bing-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/bing-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/blockchain-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/blockchain-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/blockchain-development" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/blockchain-development" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/blockchain-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/blockchain-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/blockchain-development" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/blockchain-development" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/blockchain-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/blockchain-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/blockchain-development" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/blockchain-development" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/content-marketing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/content-marketing" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/content-marketing" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/content-marketing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/content-marketing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/content-marketing" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/content-marketing" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/content-marketing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/content-marketing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/content-marketing" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/content-marketing" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/content-marketing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/custom-ai-agents</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/custom-ai-agents" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/custom-ai-agents" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/custom-ai-agents" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/custom-ai-agents</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/custom-ai-agents" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/custom-ai-agents" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/custom-ai-agents" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/custom-ai-agents</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/custom-ai-agents" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/custom-ai-agents" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/custom-ai-agents" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/email-marketing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/email-marketing" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/email-marketing" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/email-marketing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/email-marketing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/email-marketing" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/email-marketing" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/email-marketing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/email-marketing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/email-marketing" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/email-marketing" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/email-marketing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/google-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/google-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/google-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/google-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/google-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/google-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/google-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/google-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/google-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/google-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/google-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/google-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/google-shopping</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/google-shopping" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/google-shopping" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/google-shopping" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/google-shopping</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/google-shopping" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/google-shopping" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/google-shopping" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/google-shopping</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/google-shopping" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/google-shopping" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/google-shopping" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/meta-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/meta-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/meta-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/meta-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/meta-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/meta-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/meta-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/meta-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/meta-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/meta-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/meta-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/meta-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/performance-advertising</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/performance-advertising" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/performance-advertising" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/performance-advertising" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/performance-advertising</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/performance-advertising" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/performance-advertising" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/performance-advertising" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/performance-advertising</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/performance-advertising" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/performance-advertising" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/performance-advertising" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/seo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/seo" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/seo" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/seo" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/seo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/seo" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/seo" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/seo" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/seo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/seo" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/seo" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/seo" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/tiktok-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/tiktok-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/tiktok-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/tiktok-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/tiktok-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/tiktok-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/tiktok-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/tiktok-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/tiktok-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/tiktok-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/tiktok-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/tiktok-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/web-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/web-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/web-development" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/web-development" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/web-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/web-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/web-development" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/web-development" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/web-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/web-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/web-development" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/web-development" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/x-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/x-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/x-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/x-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/x-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/x-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/x-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/x-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/x-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/x-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/x-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/x-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/services/youtube-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/youtube-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/youtube-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/youtube-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/services/youtube-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/youtube-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/youtube-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/youtube-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/services/youtube-ads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/services/youtube-ads" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/services/youtube-ads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/services/youtube-ads" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/solutions/ecommerce</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/ecommerce" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/ecommerce" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/ecommerce" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/solutions/ecommerce</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/ecommerce" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/ecommerce" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/ecommerce" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/solutions/ecommerce</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/ecommerce" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/ecommerce" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/ecommerce" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/solutions/fintech</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/fintech" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/fintech" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/fintech" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/solutions/fintech</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/fintech" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/fintech" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/fintech" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/solutions/fintech</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/fintech" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/fintech" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/fintech" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/solutions/healthtech</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/healthtech" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/healthtech" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/healthtech" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/solutions/healthtech</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/healthtech" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/healthtech" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/healthtech" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/solutions/healthtech</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/healthtech" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/healthtech" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/healthtech" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/solutions/saas</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/saas" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/saas" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/saas" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/solutions/saas</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/saas" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/saas" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/saas" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/solutions/saas</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/saas" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/saas" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/saas" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/solutions/travel-education</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/travel-education" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/travel-education" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/travel-education" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/solutions/travel-education</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/travel-education" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/travel-education" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/travel-education" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/solutions/travel-education</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/solutions/travel-education" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/solutions/travel-education" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/solutions/travel-education" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/tools/calculator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/tools/calculator" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/tools/calculator" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/tools/calculator" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/tools/calculator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/tools/calculator" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/tools/calculator" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/tools/calculator" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/tools/calculator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/tools/calculator" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/tools/calculator" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/tools/calculator" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/en/tools/utm-generator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/tools/utm-generator" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/tools/utm-generator" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/tools/utm-generator" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/uk/tools/utm-generator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/tools/utm-generator" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/tools/utm-generator" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/tools/utm-generator" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yan-si.io/ru/tools/utm-generator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yan-si.io/en/tools/utm-generator" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yan-si.io/uk/tools/utm-generator" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yan-si.io/ru/tools/utm-generator" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
