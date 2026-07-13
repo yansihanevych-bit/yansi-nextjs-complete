@@ -2,8 +2,7 @@
   "version": 2,
   "buildCommand": "next build",
   "outputDirectory": ".next",
-  "public": true,
-  "rewrites": [
+   "rewrites": [
     {
       "source": "/robots.txt",
       "destination": "/api/robots"
