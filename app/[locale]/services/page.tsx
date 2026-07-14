@@ -2,7 +2,6 @@ import { Metadata } from 'next';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
 import Button from '@/components/ui/Button';
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { generateMetadata as generateSEOMetadata } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 

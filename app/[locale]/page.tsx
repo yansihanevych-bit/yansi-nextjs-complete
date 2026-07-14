@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { useTranslations } from 'next-intl';
+
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
 import Button from '@/components/ui/Button';
@@ -16,7 +16,6 @@ export const metadata: Metadata = generateSEOMetadata({
 });
 
 export default function HomePage() {
-  const t = useTranslations();
 
   const services = [
     {

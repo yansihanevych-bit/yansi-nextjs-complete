@@ -4,7 +4,6 @@ const nextConfig = {
   compress: true,
 
   // ✅ SWC minification
-  swcMinify: true,
 
   // ✅ Image optimization
   images: {
@@ -17,10 +16,6 @@ const nextConfig = {
   },
 
   // ✅ i18n routing
-  i18n: {
-    locales: ['en', 'uk', 'ru'],
-    defaultLocale: 'en',
-  },
 
   // ✅ Security headers
   async headers() {

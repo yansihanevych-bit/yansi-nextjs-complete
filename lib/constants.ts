@@ -111,7 +111,7 @@ export const FOOTER_LINKS = {
 };
 
 export const METADATA = {
-  defaultTitle: 'Yansi.IO — Ignite Demand. Close More Deals.',
+  defaultTitle: 'Yansi.IO - Ignite Demand. Close More Deals.',
   defaultDescription:
     'AI-powered marketing and development services. Performance advertising, analytics, automation, and growth strategy for SaaS, fintech, e-commerce, and more.',
   defaultKeywords: [

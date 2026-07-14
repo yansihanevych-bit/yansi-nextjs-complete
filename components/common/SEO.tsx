@@ -7,7 +7,6 @@ export function generateMetadata(seo: SEOMetadata): Metadata {
     title: seo.title || METADATA.defaultTitle,
     description: seo.description || METADATA.defaultDescription,
     keywords: seo.keywords || METADATA.defaultKeywords,
-    canonical: seo.canonical,
     robots: seo.robots || (seo.noindex ? 'noindex' : seo.nofollow ? 'nofollow' : 'index, follow'),
     openGraph: {
       title: seo.title || METADATA.defaultTitle,

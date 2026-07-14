@@ -11,9 +11,9 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const contactInfo = [
-    { icon: '✉️', label: t('footer.label_email', 'Email'), value: SITE_CONFIG.email, href: `mailto:${SITE_CONFIG.email}` },
-    { icon: '📱', label: t('footer.label_phone', 'Phone'), value: SITE_CONFIG.phone, href: `tel:${SITE_CONFIG.phone}` },
-    { icon: '💬', label: t('footer.label_telegram', 'Telegram'), value: SITE_CONFIG.telegram, href: `https://t.me/${SITE_CONFIG.telegram.slice(1)}` },
+    { icon: '✉️', label: t('footer.label_email'), value: SITE_CONFIG.email, href: `mailto:${SITE_CONFIG.email}` },
+    { icon: '📱', label: t('footer.label_phone'), value: SITE_CONFIG.phone, href: `tel:${SITE_CONFIG.phone}` },
+    { icon: '💬', label: t('footer.label_telegram'), value: SITE_CONFIG.telegram, href: `https://t.me/${SITE_CONFIG.telegram.slice(1)}` },
   ];
 
   return (
@@ -34,7 +34,7 @@ export function Footer() {
               <span className="text-yansi-accent">Si</span>
             </Link>
             <p className="text-white/50 text-sm leading-relaxed">
-              {t('footer.description', 'AI-powered marketing and development services for ambitious companies.')}
+              {t('footer.description')}
             </p>
           </motion.div>
 
@@ -102,7 +102,7 @@ export function Footer() {
               viewport={{ once: true }}
               className="text-sm text-white/40"
             >
-              © {currentYear} Yansi.IO. {t('footer.rights', 'All rights reserved.')}
+              © {currentYear} Yansi.IO. {t('footer.rights')}
             </motion.p>
 
             {/* Social links */}

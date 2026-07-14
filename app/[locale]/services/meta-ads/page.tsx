@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
 import Button from '@/components/ui/Button';
-import { generateMetadata as generateSEOMetadata, getFullUrl } from '@/lib/seo';
+import { generateMetadata as generateSEOMetadata } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 
 export const metadata: Metadata = generateSEOMetadata({
@@ -10,7 +10,7 @@ export const metadata: Metadata = generateSEOMetadata({
   description: 'Facebook & Instagram advertising solutions',
 });
 
-export default function ServicesMeta-adsPage() {
+export default function ServicesMetaAdsPage() {
   return (
     <>
       <Section className="pt-8 pb-0">

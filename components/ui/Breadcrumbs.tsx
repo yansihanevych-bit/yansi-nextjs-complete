@@ -32,7 +32,7 @@ export function Breadcrumbs({ showSchema = true }: BreadcrumbsProps) {
 
       // Генерируем название из translation ключа или самого segment
       const nameKey = `breadcrumb.${segment}`;
-      const displayName = t(nameKey, segment.charAt(0).toUpperCase() + segment.slice(1).replace('-', ' '));
+      const displayName = t(nameKey) || (segment.charAt(0).toUpperCase() + segment.slice(1).replace('-', ' '));
 
       crumbs.push({
         name: displayName,
@@ -68,7 +68,7 @@ export function Breadcrumbs({ showSchema = true }: BreadcrumbsProps) {
       {/* Breadcrumbs Navigation */}
       <nav
         className="py-4 px-4 md:px-0 border-b border-white/5"
-        aria-label={t('breadcrumb.navigation', 'Breadcrumb')}
+        aria-label={t('breadcrumb.navigation')}
       >
         <ol className="flex items-center gap-2 text-sm">
           {breadcrumbs.map((crumb, index) => (

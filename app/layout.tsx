@@ -1,6 +1,4 @@
 import type { Metadata } from 'next';
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from '@/lib/i18n';
 import { generateOrganizationSchema, SITE_URL } from '@/lib/seo';
 import { METADATA } from '@/lib/constants';
 import '@/styles/globals.css';
@@ -11,7 +9,6 @@ export const metadata: Metadata = {
   keywords: METADATA.defaultKeywords,
   viewport: 'width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes',
   metadataBase: new URL(SITE_URL),
-  canonical: SITE_URL,
   openGraph: {
     type: 'website',
     url: SITE_URL,
@@ -62,27 +59,16 @@ export const metadata: Metadata = {
     email: true,
     address: true,
   },
-  appLinks: [
-    {
-      url: 'https://apps.apple.com/app/yansi',
-      platform: 'ios',
-      app_name: 'Yansi',
-    },
-  ],
 };
 
 interface RootLayoutProps {
   children: React.ReactNode;
-  params: {
-    locale: string;
-  };
 }
 
 export default async function RootLayout({
   children,
-  params: { locale },
 }: RootLayoutProps) {
-  const messages = await getMessages(locale);
+  const locale = 'en'; // Default locale for root layout
 
   return (
     <html lang={locale} suppressHydrationWarning>
@@ -178,9 +164,9 @@ export default async function RootLayout({
       </head>
 
       <body className="bg-yansi-bg text-yansi-text overflow-x-hidden antialiased">
-        <NextIntlClientProvider messages={messages}>
+        
           {children}
-        </NextIntlClientProvider>
+        
       </body>
     </html>
   );

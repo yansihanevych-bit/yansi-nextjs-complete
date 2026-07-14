@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { contactFormSchema } from '@/lib/schemas';
-import { sendTelegramMessage, formatTelegramMessage, getUserAgentInfo } from '@/lib/telegram';
+import { sendTelegramMessage, formatTelegramMessage } from '@/lib/telegram';
 import { logger } from '@/lib/logger';
 import { z } from 'zod';
 
@@ -51,14 +51,14 @@ function checkRateLimit(ip: string): boolean {
 
 function getClientIP(request: NextRequest): string {
   const forwarded = request.headers.get('x-forwarded-for');
-  const ip = forwarded ? forwarded.split(',')[0].trim() : request.ip || 'unknown';
+  const ip = forwarded ? forwarded.split(',')[0].trim() : 'unknown';
   return ip;
 }
 
 /**
  * Парсит UTM параметры из URL или строки
  */
-function parseUTMParams(url?: string, queryString?: string): Record<string, string> {
+function parseUTMParams(queryString?: string): Record<string, string> {
   const utm: Record<string, string> = {};
 
   const searchParams = new URLSearchParams(queryString || '');
@@ -169,9 +169,8 @@ export async function POST(request: NextRequest) {
     }
 
     // ✅ 8. Парсим UTM и tracking параметры
-    const utmParams = parseUTMParams(data.pageUrl, undefined);
+    const utmParams = parseUTMParams(undefined);
     const trackingParams = extractTrackingParams(data, request);
-    const userAgentInfo = getUserAgentInfo(userAgent);
 
     // ✅ 9. Форматируем сообщение для Telegram
     const telegramMessage = formatTelegramMessage({
@@ -263,7 +262,7 @@ export async function POST(request: NextRequest) {
     const duration = Date.now() - startTime;
     logger.logApiError('POST', '/api/contact', error as Error, {
       statusCode: 500,
-      ip: clientIP,
+
     });
     logger.logResponse('POST', '/api/contact', 500, duration, { success: false });
 
@@ -275,7 +274,7 @@ export async function POST(request: NextRequest) {
 }
 
 // ✅ OPTIONS для CORS
-export async function OPTIONS(request: NextRequest) {
+export async function OPTIONS() {
   return NextResponse.json(null, {
     headers: {
       'Access-Control-Allow-Origin': '*',

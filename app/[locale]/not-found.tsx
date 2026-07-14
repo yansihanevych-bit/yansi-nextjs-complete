@@ -1,8 +1,9 @@
+import type { Metadata } from 'next';
 import Button from '@/components/ui/Button';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: '404 - Page Not Found | Yansi.IO',
   description: 'The page you are looking for could not be found.',
 };

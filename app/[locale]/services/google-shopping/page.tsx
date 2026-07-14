@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
 import Button from '@/components/ui/Button';
-import { generateMetadata as generateSEOMetadata, getFullUrl } from '@/lib/seo';
+import { generateMetadata as generateSEOMetadata } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 
 export const metadata: Metadata = generateSEOMetadata({
@@ -10,7 +10,7 @@ export const metadata: Metadata = generateSEOMetadata({
   description: 'Google Shopping optimization',
 });
 
-export default function ServicesGoogle-shoppingPage() {
+export default function ServicesGoogleShoppingPage() {
   return (
     <>
       <Section className="pt-8 pb-0">

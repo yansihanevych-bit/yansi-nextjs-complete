@@ -19,11 +19,11 @@ type SubmitState = {
   text: string;
 };
 
-export function LeadForm({ onSuccess, onError, variant = 'default' }: LeadFormProps) {
+export function LeadForm({ onSuccess, onError }: LeadFormProps) {
   const t = useTranslations();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState<SubmitState>({ type: null, text: '' });
-  const submitTimeoutRef = useRef<NodeJS.Timeout>();
+  const submitTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const lastSubmitTimeRef = useRef<number>(0);
 
   const {
@@ -92,7 +92,7 @@ export function LeadForm({ onSuccess, onError, variant = 'default' }: LeadFormPr
 
         setSubmitMessage({
           type: 'success',
-          text: t('form.success', '✅ Thank you! We will contact you within 24 hours.'),
+          text: t('form.success'),
         });
 
         reset();
@@ -107,7 +107,7 @@ export function LeadForm({ onSuccess, onError, variant = 'default' }: LeadFormPr
 
         setSubmitMessage({
           type: 'error',
-          text: t('form.error', '❌ Failed to submit. Please try again or contact us directly.'),
+          text: t('form.error'),
         });
         onError?.(errorMessage);
       } finally {

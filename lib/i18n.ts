@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { getRequestConfig } from 'next-intl/server';
 
 export const locales = ['en', 'uk', 'ru'] as const;
 export type Locale = (typeof locales)[number];
@@ -22,3 +23,11 @@ export async function getMessages(locale: string) {
 export function isValidLocale(locale: any): locale is Locale {
   return locales.includes(locale);
 }
+
+// Export next-intl config
+export default getRequestConfig(async ({ locale }) => {
+  if (!isValidLocale(locale)) notFound();
+  return {
+    messages: await getMessages(locale),
+  };
+});

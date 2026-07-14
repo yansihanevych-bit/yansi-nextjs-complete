@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
 import Button from '@/components/ui/Button';
-import { generateMetadata as generateSEOMetadata, getFullUrl } from '@/lib/seo';
+import { generateMetadata as generateSEOMetadata } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 
 export const metadata: Metadata = generateSEOMetadata({
@@ -10,7 +10,7 @@ export const metadata: Metadata = generateSEOMetadata({
   description: 'Personalized email campaigns',
 });
 
-export default function ServicesEmail-marketingPage() {
+export default function ServicesEmailMarketingPage() {
   return (
     <>
       <Section className="pt-8 pb-0">

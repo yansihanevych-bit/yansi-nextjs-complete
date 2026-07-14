@@ -46,7 +46,6 @@ export function generateMetadata(seo: SEOMetadata, locale?: string): Metadata {
     description: seo.description,
     keywords: seo.keywords,
     robots: seo.robots || 'index, follow',
-    canonical: canonicalUrl,
     
     // OpenGraph
     openGraph: {
@@ -89,11 +88,8 @@ export function generateMetadata(seo: SEOMetadata, locale?: string): Metadata {
               url,
             ])
           ),
-          canonical: canonicalUrl,
         }
-      : {
-          canonical: canonicalUrl,
-        },
+      : undefined,
 
     // Viewport
     viewport: {
@@ -104,9 +100,6 @@ export function generateMetadata(seo: SEOMetadata, locale?: string): Metadata {
     },
 
     // Другие
-    charset: {
-      charset: 'UTF-8',
-    },
     authors: [
       {
         name: SITE_NAME,

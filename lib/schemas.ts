@@ -35,7 +35,7 @@ export const contactFormSchema = z.object({
     .trim()
     .min(10, '❌ Message must be at least 10 characters')
     .max(2000, '❌ Message must be less than 2000 characters')
-    .regex(/^[a-zA-Zа-яА-ЯёЁ0-9\s.,!?'\"-—–]+$/, '❌ Message contains invalid characters'),
+    .regex(/^[a-zA-Zа-яА-ЯёЁ0-9\s.,!?'\"---]+$/, '❌ Message contains invalid characters'),
 
   budget: z
     .enum(['500-1000', '1500-2000', '2000-5000', '5000plus'], {
