@@ -208,43 +208,7 @@ export async function POST(request: NextRequest) {
       // Продолжаем даже если Telegram не отправился
     }
 
-    // ✅ 11. Сохранение в БД (опционально)
-    try {
-      // await db.leads.create({
-      //   name: validatedData.name,
-      //   email: validatedData.email,
-      //   phone: validatedData.phone,
-      //   telegram: validatedData.telegram,
-      //   message: validatedData.message,
-      //   budget: validatedData.budget,
-      //   company: data.company,
-      //   pageName: data.pageName,
-      //   pageUrl: data.pageUrl,
-      //   language: data.language,
-      //   utm: JSON.stringify(utmParams),
-      //   tracking: JSON.stringify(trackingParams),
-      //   userAgent: userAgent,
-      //   userAgentInfo: JSON.stringify(userAgentInfo),
-      //   ip: clientIP,
-      //   createdAt: new Date(),
-      // });
-    } catch (error) {
-      logger.error('Failed to save to database', error as Error);
-    }
-
-    // ✅ 12. Отправка email (опционально)
-    try {
-      // await sendEmail({
-      //   to: validatedData.email,
-      //   subject: 'Thank you for your inquiry - Yansi.IO',
-      //   template: 'contact-confirmation',
-      //   data: validatedData,
-      // });
-    } catch (error) {
-      logger.error('Failed to send email', error as Error);
-    }
-
-    // ✅ 13. Логирование успешной заявки
+    // ✅ Логирование успешной заявки
     logger.logContactSubmission(validatedData, { telegramSent, ip: clientIP });
 
     const duration = Date.now() - startTime;

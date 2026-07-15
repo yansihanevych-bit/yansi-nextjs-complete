@@ -4,26 +4,15 @@
  */
 
 import { Metadata } from 'next';
+import { locales, defaultLocale } from '@/lib/i18n';
+import { SITE_CONFIG } from '@/lib/constants';
+import type { SEOMetadata } from '@/types';
 
-export const SITE_NAME = 'Yansi.IO';
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://yan-si.io';
-export const DEFAULT_LOCALE = 'en';
-export const SUPPORTED_LOCALES = ['en', 'uk', 'ru'] as const;
-
-export interface SEOMetadata {
-  title: string;
-  description: string;
-  canonical?: string;
-  ogTitle?: string;
-  ogDescription?: string;
-  ogImage?: string;
-  ogType?: 'website' | 'article' | 'profile';
-  twitterCard?: 'summary' | 'summary_large_image' | 'app' | 'player';
-  twitterImage?: string;
-  keywords?: string[];
-  robots?: string;
-  alternates?: Record<string, string>;
-}
+// ✅ ИСПОЛЬЗУЕМ SITE_CONFIG из lib/constants
+export const SITE_NAME = SITE_CONFIG.name;
+export const SITE_URL = SITE_CONFIG.url;
+export const DEFAULT_LOCALE = defaultLocale;
+export const SUPPORTED_LOCALES = locales;
 
 /**
  * Генерирует полный URL

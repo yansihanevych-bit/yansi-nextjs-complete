@@ -3,8 +3,6 @@ const nextConfig = {
   // ✅ Enable compression
   compress: true,
 
-  // ✅ SWC minification
-
   // ✅ Image optimization
   images: {
     remotePatterns: [],
@@ -14,8 +12,6 @@ const nextConfig = {
     unoptimized: false,
     minimumCacheTTL: 31536000, // 1 year
   },
-
-  // ✅ i18n routing
 
   // ✅ Security headers
   async headers() {
@@ -65,18 +61,12 @@ const nextConfig = {
 
   // ✅ Redirects for old URLs (if needed)
   async redirects() {
-    return [
-      // Add redirects here if needed
-    ];
+    return [];
   },
 
   // ✅ Rewrites for API
   async rewrites() {
-    return {
-      beforeFiles: [
-        // Add rewrites here if needed
-      ],
-    };
+    return { beforeFiles: [] };
   },
 
   // ✅ Performance optimizations

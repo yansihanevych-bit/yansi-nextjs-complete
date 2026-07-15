@@ -46,15 +46,6 @@ export interface ContactFormData {
   telegram?: string;
   message: string;
   budget?: string;
-  files?: File[];
-}
-
-export interface BookCallFormData {
-  name: string;
-  email: string;
-  phone: string;
-  selectedDate: string;
-  selectedTime: string;
 }
 
 export interface NavigationLink {
@@ -63,14 +54,20 @@ export interface NavigationLink {
   children?: NavigationLink[];
 }
 
+// ✅ ЕДИНСТВЕННЫЙ SEOMetadata ИНТЕРФЕЙС
 export interface SEOMetadata {
   title: string;
   description: string;
   keywords?: string[];
   ogImage?: string;
+  ogTitle?: string;
+  ogDescription?: string;
   ogType?: 'website' | 'article' | 'profile';
+  twitterCard?: 'summary' | 'summary_large_image' | 'app' | 'player';
+  twitterImage?: string;
   canonical?: string;
   robots?: string;
   noindex?: boolean;
   nofollow?: boolean;
+  alternates?: Record<string, string>;
 }

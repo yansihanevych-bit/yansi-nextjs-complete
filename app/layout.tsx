@@ -1,7 +1,15 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { generateOrganizationSchema, SITE_URL } from '@/lib/seo';
 import { METADATA } from '@/lib/constants';
 import '@/styles/globals.css';
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1.0,
+  maximumScale: 5.0,
+  userScalable: true,
+  colorScheme: 'dark',
+};
 
 export const metadata: Metadata = {
   title: METADATA.defaultTitle,
@@ -59,19 +67,25 @@ export const metadata: Metadata = {
     email: true,
     address: true,
   },
+  alternates: {
+    languages: {
+      'en': `${SITE_URL}/en`,
+      'uk': `${SITE_URL}/uk`,
+      'ru': `${SITE_URL}/ru`,
+      'x-default': `${SITE_URL}/en`,
+    },
+  },
 };
 
 interface RootLayoutProps {
   children: React.ReactNode;
 }
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: RootLayoutProps) {
-  const locale = 'en'; // Default locale for root layout
-
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
@@ -164,9 +178,7 @@ export default async function RootLayout({
       </head>
 
       <body className="bg-yansi-bg text-yansi-text overflow-x-hidden antialiased">
-        
-          {children}
-        
+        {children}
       </body>
     </html>
   );

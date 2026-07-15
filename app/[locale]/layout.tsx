@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
-
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
-
+import { getMessages } from '@/lib/i18n';
+import { LocaleLayoutClient } from './layout-client';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -12,16 +10,17 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function LocaleLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
+  const messages = await getMessages(locale);
+
   return (
-    <>
-      <Header />
-      <main className="flex-1">
-        {children}
-      </main>
-      <Footer />
-    </>
+    <LocaleLayoutClient locale={locale} messages={messages}>
+      {children}
+    </LocaleLayoutClient>
   );
 }
