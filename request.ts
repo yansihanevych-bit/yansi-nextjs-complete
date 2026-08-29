@@ -1,11 +1,8 @@
 import {getRequestConfig} from 'next-intl/server';
-import {hasLocale} from 'next-intl';
-import {locales, defaultLocale} from '@/lib/i18n';
+import {defaultLocale, isValidLocale} from '@/lib/i18n';
 
 export default getRequestConfig(async ({locale}) => {
-  const currentLocale = hasLocale(locales, locale)
-    ? locale
-    : defaultLocale;
+  const currentLocale = isValidLocale(locale) ? locale : defaultLocale;
 
   return {
     locale: currentLocale,
